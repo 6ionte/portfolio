@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  margin: 0.5rem 0 0 0;
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
